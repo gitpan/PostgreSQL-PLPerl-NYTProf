@@ -1,0 +1,20 @@
+---
+abstract: 'Profile execution of PostgreSQL PL/Perl code with Devel::NYTProf'
+author:
+  - 'Tim Bunce <Tim.Bunce@pobox.com>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.11
+generated_by: 'Dist::Zilla version 1.100660'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: PostgreSQL-PLPerl-NYTProf
+requires:
+  Devel::NYTProf::Core: 0.1
+  PostgreSQL::PLPerl::Injector: 1.001
+  Sub::Name: 0.04
+resources:
+  repository: git@github.com:timbunce/posgtresql-plperl-nytprof.git
+version: 1.001
