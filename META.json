@@ -1,27 +1,26 @@
 {
-   "resources" : {
-      "repository" : "git@github.com:timbunce/posgtresql-plperl-nytprof.git"
-   },
-   "meta-spec" : {
-      "version" : 1.4,
-      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
-   },
-   "generated_by" : "Dist::Zilla version 1.100660",
-   "version" : "1.001",
-   "name" : "PostgreSQL-PLPerl-NYTProf",
+   "abstract" : "Profile execution of PostgreSQL PL/Perl code with Devel::NYTProf",
    "author" : [
       "Tim Bunce <Tim.Bunce@pobox.com>"
    ],
-   "license" : "perl",
    "build_requires" : {},
-   "requires" : {
-      "PostgreSQL::PLPerl::Injector" : "1.001",
-      "Devel::NYTProf::Core" : "0.1",
-      "Sub::Name" : "0.04"
-   },
-   "abstract" : "Profile execution of PostgreSQL PL/Perl code with Devel::NYTProf",
    "configure_requires" : {
-      "ExtUtils::MakeMaker" : "6.11"
-   }
+      "ExtUtils::MakeMaker" : "6.31"
+   },
+   "generated_by" : "Dist::Zilla version 2.101310",
+   "license" : "perl",
+   "meta-spec" : {
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html",
+      "version" : 1.4
+   },
+   "name" : "PostgreSQL-PLPerl-NYTProf",
+   "recommends" : {},
+   "requires" : {
+      "Devel::NYTProf::Core" : "4.05"
+   },
+   "resources" : {
+      "repository" : "git@github.com:timbunce/posgtresql-plperl-nytprof.git"
+   },
+   "version" : "1.002"
 }
 
